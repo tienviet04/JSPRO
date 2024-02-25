@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "f690",
+      "name": "101 BÍ KÍP SỐN",
+      "desc": "dfasdf",
+      "image": "https://picsum.photos/200/200"
+    },
+    {
+      "id": "9b56",
+      "name": "Product ",
+      "desc": "quá trời tốt",
+      "image": "https://picsum.photos/200/200"
+    },
+    {
+      "id": "b95d",
+      "name": "hihihihi",
+      "desc": "quá trời tốt",
+      "image": "https://picsum.photos/200/200"
+    },
+    {
+      "id": "0998",
+      "name": "hehehehe",
+      "desc": "hêhehhe",
+      "image": "https://picsum.photos/200/200"
+    },
+    {
+      "id": "c1f0",
+      "name": "Product ",
+      "desc": "tốt lắmmmm",
+      "image": "https://picsum.photos/200/200"
+    },
+    {
+      "id": "442c",
+      "name": "Dior Trắng Thấp SC",
+      "desc": "dffff",
+      "image": "https://picsum.photos/200/200"
+    }
+  ]
+}

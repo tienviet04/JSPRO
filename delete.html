@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const api = "http://localhost:3000/products/"
+        const id = new URLSearchParams(location.search).get("id")
+        
+        function cfDele () {
+            const cf = confirm("bạn đã chắc chắn xoá chưa?")
+            if(cf){
+                fetch(api+id,{
+                    method: "DELETE"
+                }).then(()=>{
+                    window.location = "/index.html"
+                })
+                .then(()=>alert("xoá thành công"))
+            }
+        }
+        cfDele();
+    </script>
+</body>
+</html>
